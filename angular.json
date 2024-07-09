@@ -44,7 +44,7 @@
             ],
             "styles": [
               
-              
+              "docs/styles-5INURTSO.css",
               "src/styles.css"
             ],
             "scripts": []
