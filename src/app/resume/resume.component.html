@@ -1,0 +1,48 @@
+<div class="container text-center">
+    <button (click)="downloadFile()" class="btn btn-primary mb-5 shadow border">Download Resume</button>
+
+    <div class="pb-2">
+        <accordion [isAnimated]="true" style="width: 800px;" class="shadow">
+            <accordion-group [(isOpen)]="isWorkExperienceOpen" heading="Work Experience">
+            </accordion-group>
+            
+        
+        <accordion-group heading="Skills">
+            <div class="row" style="text-align: left;">
+                <div class="col">
+                    <div>Programming Languages:</div>
+                    <ul>
+                        <li>C#</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <div>Frameworks:</div>
+                    <ul>
+                        <li>ASP.Net Core</li>
+                        <li>Angular</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <div>Other Skills:</div>
+                    <ul>
+                        <li>Source Code via Git</li>                        
+                    </ul>
+                </div>
+            </div>
+        </accordion-group>
+        <accordion-group heading="Certifications">
+            <div style="text-align: center;">
+                <div>AWS cloud practitioner</div>
+                <div>Infosys Global Agile Certification</div>
+            </div>
+        </accordion-group>
+        <accordion-group heading="Education">
+            <div style="text-align: center;">
+                <div class="mb-0">Bachelor of Technology in Petroleum Engineering</div>
+                <div class="text-primary">Anna University</div>
+            </div>
+        </accordion-group>
+    </accordion>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+<div class="test">
+    <div class="container card shadow">
+        <img style="width: 100px; height: 100px; align-items: center;" src="{{project.pictures[0]}}">
+        <h5>{{project.name}}</h5>
+            <div style="padding-top: 5px;padding-bottom: 10px; color: blue;">Tools Used:
+
+            <div style="color: black;" *ngFor="let tag of project.tags">{{tag}}</div>
+        </div>
+
+            <button class="btn btn-primary mb-1 shadow border">View more</button>
+        
+    </div>
+</div>
